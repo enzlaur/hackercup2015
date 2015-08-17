@@ -301,6 +301,101 @@ core-menu > paper-item.core-selected {
     border-left: 7px solid;
     border-color: #6ADD6C;
 }
+.border-side-green {
+    border: 1px dashed;
+    border-left: 7px solid;
+    border-color: #6ADD6C;
+    transition: background 0.3s, color 0.3s;
+    color: #6ADD6C;
+}
+.border-side-green:hover {
+    background: #6ADD6C;
+    color: black;
+}
+.border-side-red {
+    border: 1px dashed;
+    border-left: 7px solid;
+    border-color: #ff5252;
+    color: #ff5252;
+    transition: background 0.3s, color 0.3s;
+}
+.border-side-red:hover {
+    background: #ff5252;
+    color: rgb(9,15,14);;
+}
+.border-side-white {
+    border: 1px dashed;
+    border-left: 7px solid;
+    border-color: #eee;
+    transition: background 0.3s, color 0.3s;
+}
+.border-side-white:hover{
+    background: white;
+    color: black;
+}
+.border-side-cyan {
+    border: 1px dashed;
+    border-left: 7px solid;
+    border-color: #18ffff;
+    color: #18ffff;
+    transition: background 0.3s, color 0.3s;
+}
+.border-side-cyan:hover {
+    background: #18ffff;
+    color: #000 !important;
+}
+.border-side-cyan-nh {
+    border: 1px dashed;
+    border-left: 7px solid;
+    border-color: #18ffff;
+    color: #18ffff;
+    transition: background 0.3s, color 0.3s;
+}
+.border-side-amber {
+    border: 1px dashed;
+    border-left: 7px solid;
+    border-color: #ffc107;
+    color: #ffc107;
+    transition: background 0.3s, color 0.3s;
+}
+.border-side-amber:hover {
+    background: #ffc107;
+    color: #000 !important;
+}
+.border-side-purple {
+    border: 1px dashed;
+    border-left: 7px solid;
+    border-color: #b388ff;
+    color: #b388ff;
+    transition: background 0.3s, color 0.3s;
+}
+.border-side-purple:hover {
+    background: #b388ff;
+    color: black;
+}
+.border-side-teal{
+    border: 1px dashed;
+    border-left: 7px solid;
+    border-color: #009688;
+    color: #009688;
+    transition: background 0.3s, color 0.3s;
+}
+.border-side-teal:hover {
+    background: #009688;
+    color: black;
+}
+
+.border-side-orange{
+    border: 1px dashed;
+    border-left: 7px solid;
+    border-color: #ff5722;
+    color: #ff5722;
+    transition: background 0.3s, color 0.3s;
+}
+.border-side-orange:hover {
+    background: #ff5722;
+    color: black;
+}
 .no-margin {
     margin: 0 !important;
 }
@@ -310,11 +405,20 @@ core-menu > paper-item.core-selected {
 .green-mint {
     background: rgb(41,118,81);	
 }
+.green-spot{
+    background: #6ADD6C;
+}
 .green-wine-text {
     color: rgb(9,15,14);
 }
 .green-mint-text {
     color: rgb(41,118,81);	
+}
+.green-spot-text {
+    color: #6ADD6C;
+}
+.green-spot-text {
+    color: #6ADD6C !important;
 }
 #container {
     position: absolute;
@@ -328,4 +432,8 @@ core-menu > paper-item.core-selected {
 
 .green-moss {
     background: rgb(9,15,14);
+}
+.scrollable {
+    overflow-y: scroll  !important;
+    overflow: scroll;
 }
