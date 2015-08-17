@@ -1,0 +1,107 @@
+<!-- 
+    Developed and designed by: LAURENZ TOLENTINO
+    COLLEGE OF COMPUTER STUDIES
+    COMPUTER SCIENCE - SOFTWARE TECHNOLOGY
+    laurenz@outlook.ph
+-->
+<!doctype html>
+<html>
+    <head>
+        <title>CCSpecializations</title>
+        <!-- import 3d-fold -->
+        <link type="text/css" rel="stylesheet" href="3d-fold/css/reset.css">
+        <link type="text/css" rel="stylesheet" href="3d-fold/css/style.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+        <link href='http://fonts.googleapis.com/css?family=Vollkorn|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="css/animate.min.css">
+        <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>	      
+        <link type="text/css" rel="stylesheet" href="css/styles.css"/>
+        <link type="text/css" rel="stylesheet" href="css/animation.css">
+        
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes"/>
+        <style> [data-sr] { visibility: hidden; } </style>
+    </head>
+    <!-- Start of Body -->
+    <body>
+        <!-- 
+            Particles is the bottom most page. Absolute in position and will not change when scrolled
+            Please remember to add a cover per new section.
+        -->
+        <div id="particles-js"></div>    
+        <!--
+        Start of Above the fold content 
+        -->
+        <div id="above" class="windowheight purple">                
+            <div class="row">
+                <div class="pushdown-20p"></div>
+                <div class="row" class="white-text" style="padding-left:35px">                     
+                    <span class="make-thick white-text">I CHOSE <br></span>
+                    <span class="element make-thick white-text"></span>
+                    <span class="typed-cursor make-thick white-text">|</span>
+                    <br>                                              
+                </div>
+            </div>
+            <div class="container left">                
+                <a href="#choose" class="btn-large" style="border: 2px solid orange; background: 0; font-size: 0.7em !important;">Get Started</a>
+                <a class="btn-large" href="#tweets" style="border: 2px solid cyan; background: 0; font-size: 0.7em !important;">Show Tweets</a>
+                <a class="btn-large tooltipped" data-position="bottom" data-tooltip="Sadly, not yet available"
+                   href="#" style="border: 2px solid red; background: 0; font-size: 0.7em !important;"
+                   onclick="Materialize.toast('Not yet available, but fortunately the answer you are looking for might be Software Technology',
+                            4000, 
+                            'light-green accent-3 black-text')">
+                    Specialization Adviser
+                </a>
+            </div>
+        </div>
+         
+        <!-- 
+        Start of Below the fold content
+        -->
+        <!-- Do Not Go Beyond Here -->
+        <script src="js/particles.js"></script>
+        <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+        <script src="3d-fold/js/main.js"></script> <!-- Resource jQuery -->
+        <script src="3d-fold/js/modernizr.js"></script>
+        <script src="js/elevator.js"></script>
+      	<script type="text/javascript" src="js/materialize.min.js"></script>
+      	<script type="text/javascript">
+      		$(document).ready(function(){
+    			$(".button-collapse").sideNav();
+      		});
+      	</script>
+        <script src='js/scrollReveal.min.js'></script>
+        <script>
+            window.sr = new scrollReveal();
+        </script>        
+
+        <script>
+        // Elevator script included on the page, already.
+
+            window.onload = function() {
+                var elevator = new Elevator({
+                    element: document.querySelector('.elevator-button'),
+                    mainAudio: 'assets/music/elevator.mp3',
+                    endAudio: 'assets/music/ding.mp3'
+                });
+            }
+        </script>
+        <!-- Use laurenz.js to edit particles.js config -->
+        <script src="js/particles.js"></script>
+        <script src="js/laurenz.js"></script>          
+        <script src="js/typed.js"></script>
+        
+        <script>            
+          $(function(){
+              $(".element").typed({                
+                  strings: ["^1000 COMPUTER SYSTEMS ENGINEERING","^1000 INSTRUCTIONAL SYSTEMS TECH.", "^1000 NETWORK ENGINEERING", "^1000 SOFTWARE TECHNOLOGY" ],
+                  typeSpeed: 0,
+                  loop: true,
+                  showCursor: false
+              });
+          });
+        </script>        
+    </body>
+</html>
