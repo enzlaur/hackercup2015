@@ -131,17 +131,6 @@ particlesJS('particles-js',
   }
 
 );
-$(document).ready(
-    function(){ 
-        var bodyheight = $(window).height();
-        $(".windowheight").css('min-height', bodyheight);
-        $(window).resize(function(){
-            var bodyheight = $(window).height();
-            $(".windowheight").css('min-height', bodyheight);
-        });        
-        $(".card-content").equalize();
-    });
-
 		/*  
 		ENTRANCES
 		*/
