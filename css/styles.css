@@ -5,15 +5,15 @@ body{
 }
 
 section{
-    margin: 0;
-    padding: 0;
+    margin: 0px 0px 0px 0px !important; 
+    padding: 0px 0px 0px 0px !important;
 }
 #particles-js {
     /* Size */
     height: 100% !important;
     width: 100% !important;
     /* position */
-    position: absolute !important;
+    position: fixed !important;
     top: 0px !important;
     left: 0px !important;    
     z-index: 1 !important;
@@ -139,6 +139,9 @@ section{
 .pushdown-10p {
     padding-top: 10%;
 }
+.pushdown-15p {
+    padding-top: 15%;
+}
 
 .pushdown-5p {
     padding-top: 5%;
@@ -187,10 +190,20 @@ section{
     width: 100%;
 }
 
-#sec-1, #sec-2, #sec-3, #sec-4 {
+#sec-1 { 
     padding-top: 15%;
-    padding-bottom: 15%;
-    vertical-align: middle;    
+    padding-bottom: 15%;    
+    vertical-align: middle; 
+    position: relative;
+    z-index: 2;
+}
+#sec-2, #sec-3, #sec-4 {
+    padding-top: 15%;
+    padding-bottom: 15%;    
+    vertical-align: middle; 
+    position: relative;
+    z-index: 2;
+    bottom: 7px;
 }
 
 
@@ -408,7 +421,8 @@ core-menu > paper-item.core-selected {
     background: rgb(9,15,14);
 }
 .green-mint {
-    background: rgb(41,118,81);	
+    background: /*rgb(41,118,81)*/;	
+    background: #2f815c;
 }
 .green-spot{
     background: #6ADD6C;
@@ -441,4 +455,12 @@ core-menu > paper-item.core-selected {
 .scrollable {
     overflow-y: scroll  !important;
     overflow: scroll;
+}
+
+.image-title {
+    width: 60%;
+}
+
+.overlay-ground {
+    width: 100%;
 }
