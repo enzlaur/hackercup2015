@@ -461,9 +461,9 @@ core-menu > paper-item.core-selected {
     /* position */
     position: relative;
     z-index: 7;
-    bottom: 335px;
+    bottom: 385px;
     /* size */
-    height: 330px;
+    height: 382px;
     width: 100%;
     /* color */
     background: rgba(41, 118, 81, 0.71);
@@ -496,5 +496,5 @@ core-menu > paper-item.core-selected {
     color: black !important;
 }
 #sec-map {
-    height: 340px;
+    height: 405px;
 }
