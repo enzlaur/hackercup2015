@@ -331,8 +331,8 @@ core-menu > paper-item.core-selected {
     transition: background 0.3s, color 0.3s;
 }
 .border-side-red:hover {
-    background: #ff5252;
-    color: rgb(9,15,14);;
+    background: #ff5252 !important;
+    color: white;
 }
 .border-side-white {
     border: 1px dashed;
@@ -341,7 +341,7 @@ core-menu > paper-item.core-selected {
     transition: background 0.3s, color 0.3s;
 }
 .border-side-white:hover{
-    background: white;
+    background: white !important;
     color: black;
 }
 .border-side-cyan {
@@ -352,7 +352,7 @@ core-menu > paper-item.core-selected {
     transition: background 0.3s, color 0.3s;
 }
 .border-side-cyan:hover {
-    background: #18ffff;
+    background: #18ffff !important;
     color: #000 !important;
 }
 .border-side-cyan-nh {
@@ -370,7 +370,7 @@ core-menu > paper-item.core-selected {
     transition: background 0.3s, color 0.3s;
 }
 .border-side-amber:hover {
-    background: #ffc107;
+    background: #ffc107 !important;
     color: #000 !important;
 }
 
@@ -382,7 +382,7 @@ core-menu > paper-item.core-selected {
     transition: background 0.3s, color 0.3s;
 }
 .border-side-purple:hover {
-    background: #b388ff;
+    background: #b388ff !important;
     color: black;
 }
 .border-side-teal{
@@ -393,7 +393,7 @@ core-menu > paper-item.core-selected {
     transition: background 0.3s, color 0.3s;
 }
 .border-side-teal:hover {
-    background: #009688;
+    background: #009688 !important;
     color: black;
 }
 
@@ -405,7 +405,7 @@ core-menu > paper-item.core-selected {
     transition: background 0.3s, color 0.3s;
 }
 .border-side-orange:hover {
-    background: #ff5722;
+    background: #ff5722 !important;
     color: black;
 }
 .no-margin {
@@ -499,8 +499,8 @@ core-menu > paper-item.core-selected {
         transition: color 0.3s;
     }
 .border-side-amber-map:hover {
-    background: #ffc107;
-    color: #000 !important;    
+    background: #ffc107 !important;
+    color: #000 !important;
 }
 
 .to-black {
