@@ -364,6 +364,7 @@ core-menu > paper-item.core-selected {
     background: #ffc107;
     color: #000 !important;
 }
+
 .border-side-purple {
     border: 1px dashed;
     border-left: 7px solid;
@@ -447,4 +448,50 @@ core-menu > paper-item.core-selected {
 
 .overlay-ground {
     width: 100%;
+}
+
+
+
+.map-below {
+    position: relative;
+    z-index: 5;
+}
+
+.map-over {
+    /* position */
+    position: relative;
+    z-index: 7;
+    bottom: 335px;
+    /* size */
+    height: 330px;
+    width: 100%;
+    /* color */
+    background: rgba(41, 118, 81, 0.71);
+}
+
+.border-side-amber-map {
+    border: 1px dashed;
+    border-left: 7px solid;
+    border-color: #ffc107;
+    background: 0;
+    color: #fff;
+    transition: background 0.3s, color 0.3s;
+}
+    .border-side-amber-map a {
+        color: #ffc107;
+    }
+    .border-side-amber-map:hover a {
+        color: #000;
+        transition: color 0.3s;
+    }
+.border-side-amber-map:hover {
+    background: #ffc107;
+    color: #000 !important;
+}
+
+.to-black {
+    color: yellow;
+}
+.to-black:hover {
+    color: black !important;
 }
