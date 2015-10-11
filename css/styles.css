@@ -192,6 +192,12 @@ p {
     z-index: 2;
     bottom: 7px;
 }
+#sec-4 {
+    bottom: 0;
+}
+#sec-3 {
+    background: rgba(9, 15, 14, 0.95);
+}
 
 
 
@@ -406,8 +412,13 @@ core-menu > paper-item.core-selected {
     margin: 0 !important;
 }
 .green-wine {
-    background: rgb(9,15,14);
+    color: white;
+    background: rgb(9,15,14) !important;
 }
+
+    .green-wine li {
+        color: white;
+    }
 .green-mint {
     background: /*rgb(41,118,81)*/;	
     background: #2f815c;
@@ -489,7 +500,7 @@ core-menu > paper-item.core-selected {
     }
 .border-side-amber-map:hover {
     background: #ffc107;
-    color: #000 !important;
+    color: #000 !important;    
 }
 
 .to-black {
@@ -500,4 +511,28 @@ core-menu > paper-item.core-selected {
 }
 #sec-map {
     height: 405px;
+}
+
+.fullWidth {
+    width: 100%;
+}
+
+.green-spring {
+    background: #01D084;
+}
+
+.green-spring-text {
+    color: #01D084;
+}
+
+.malachite {
+    background: #04E96C;
+}
+.malachite-text {
+    color: #04E96C;
+}
+.return-div {
+    position: fixed;
+    top: 25px;
+    left: 25px;
 }

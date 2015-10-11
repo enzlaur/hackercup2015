@@ -2045,7 +2045,7 @@ i {
   i.tiny {
     font-size: 1rem; }
   i.small {
-    font-size: 2rem; }
+    font-size: 2rem !important; }
   i.medium {
     font-size: 4rem; }
   i.large {

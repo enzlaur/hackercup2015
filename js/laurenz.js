@@ -157,6 +157,13 @@ $(window).scroll(function() {
            }); 
 
 
-
+$(document).ready(function(){ 
+                var bodyheight = $(window).height();
+                $(".windowheight").css('min-height', bodyheight);
+                $(window).resize(function(){
+                var bodyheight = $(window).height();
+                $(".windowheight").css('min-height', bodyheight);
+                }); 
+            });
 
 
