@@ -167,7 +167,7 @@ p {
     
     bottom: 0px;
     /* color */
-    border-top: solid 1px rgb(71, 188, 132);;    
+    border-top: solid 1px rgb(71, 188, 132);
 }
 
 .img-big-hero {    
@@ -471,7 +471,7 @@ core-menu > paper-item.core-selected {
 
 .border-side-amber-map {
     border: 1px dashed;
-    border-left: 7px solid;
+    border-top: 7px solid;
     border-color: #ffc107;
     background: 0;
     color: #fff;
@@ -494,4 +494,7 @@ core-menu > paper-item.core-selected {
 }
 .to-black:hover {
     color: black !important;
+}
+#sec-map {
+    height: 340px;
 }
