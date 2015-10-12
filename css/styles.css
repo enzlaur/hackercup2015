@@ -475,12 +475,12 @@ core-menu > paper-item.core-selected {
     /* position */
     position: relative;
     z-index: 7;
-    bottom: 385px;
+    bottom: 386px;
     /* size */
     height: 381px;
-    width: 100%;
+    width: 101%;
     /* color */
-    background: rgba(41, 118, 81, 0.71);
+    background: rgba(9,15,14, 0.91);
 }
 
 .border-side-amber-map {
