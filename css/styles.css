@@ -536,3 +536,15 @@ core-menu > paper-item.core-selected {
     top: 25px;
     left: 25px;
 }
+
+.overlay-ground-invert {
+    width: 100%;    
+}
+
+#ground-inlets {
+    margin-top: -20px;    
+    vertical-align: middle; 
+    position: relative;
+    z-index: 2;
+    bottom: 7px;
+}
