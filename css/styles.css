@@ -538,7 +538,8 @@ core-menu > paper-item.core-selected {
 }
 
 .overlay-ground-invert {
-    width: 100%;    
+    width: 100%;
+    transform: scale(-1);
 }
 
 #ground-inlets {
