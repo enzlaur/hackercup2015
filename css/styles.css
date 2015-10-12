@@ -25,6 +25,7 @@ img {
 
 p {
     font-size: 1.15em;
+    color: inherit;
 }
 
 .pushdown-20p {
@@ -511,6 +512,7 @@ core-menu > paper-item.core-selected {
 }
 #sec-map {
     height: 405px;
+    position: relative;
 }
 
 .fullWidth {
