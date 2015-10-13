@@ -530,8 +530,12 @@ core-menu > paper-item.core-selected {
 .malachite {
     background: #04E96C;
 }
+.malachite-border {
+    border: 1px dashed;
+    border-color: #04E96C;
+}
 .malachite-text {
-    color: #04E96C;
+    color: #04E96C !important;
 }
 .return-div {
     position: fixed;
