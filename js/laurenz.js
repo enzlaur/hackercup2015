@@ -140,24 +140,33 @@ particlesJS('particles-js',
                   }
               });
            }); 
-$(window).scroll(function() {
-              $('.slideOpen').each(function(){
+$(window).scroll(
+    function() 
+    {
+              $('.slideOpen').each(function()
+                                   {
                   var imagePos = $(this).offset().top;
                   var topOfWindow = $(window).scrollTop();
-                  if (imagePos < topOfWindow+200) {
+                  if (imagePos < topOfWindow+200) 
+                  {
 				    $(this).addClass("slideOpen");
                   }
               });
-           }); 
+    }
+); 
 
 
-$(document).ready(function(){ 
+$(document).ready(
+    function()
+    { 
+        var bodyheight = $(window).height();
+        $(".windowheight").css('min-height', bodyheight);
+        $(window).resize(
+            function(){
                 var bodyheight = $(window).height();
                 $(".windowheight").css('min-height', bodyheight);
-                $(window).resize(function(){
-                var bodyheight = $(window).height();
-                $(".windowheight").css('min-height', bodyheight);
-                }); 
-            });
-
-
+            }
+        );
+        
+    }
+);
