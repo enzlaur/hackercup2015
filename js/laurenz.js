@@ -150,9 +150,9 @@ particlesJS('particles-js',{
         "nb_sides": 5
       },
       "image": {
-        "src": "../assets/img/lastday.png",
-        "width": 100,
-        "height": 100
+        "src": "http://vignette3.wikia.nocookie.net/nine/images/d/dc/Nyancat.png/revision/latest?cb=20120317044335",
+        "width": 300,
+        "height": 200
       }
     },
     "opacity": {
@@ -185,7 +185,7 @@ particlesJS('particles-js',{
     "move": {
       "enable": true,
       "speed": 1,
-      "direction": "bottom",
+      "direction": "right",
       "random": true,
       "straight": false,
       "out_mode": "out",
