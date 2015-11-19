@@ -418,7 +418,7 @@ core-menu > paper-item.core-selected {
     margin: 0 !important;
 }
 .green-wine-trans {
-    background: rgba(9, 15, 14, 0.85) !important;
+    background: rgba(9, 15, 14, 0.85) !important; 
     color: white;
 }
 .green-wine {
