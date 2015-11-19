@@ -100,39 +100,142 @@
                                 </div>
                             </div>
                             
-                            
+                            <!-- Start of Schedule -->
                             <div class="card-panel green-wine-trans border-side-black">
-                                <table class="bordered highlight centered responsive-table">
-                                    <thead>
-                                        <tr class="green-spot-text">
-                                            <th data-field="Time">Time</th>
-                                            <th data-field="Time">Event</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>7:00</td>
-                                            <td>Registration</td>
-                                        </tr>
-                                        <tr>
-                                            <td>8:00</td>
-                                            <td>Opening Remarks</td>
-                                        </tr>
-                                        <tr>
-                                            <td>8:15</td>
-                                            <td>Start of Talks</td>
-                                        </tr>
-                                        <tr>
-                                            <td>9:45</td>
-                                            <td>End of Talks</td>
-                                        </tr>
-                                        <tr>
-                                            <td>10:00</td>
-                                            <td>Hackathon Starts</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                                <div class="row">
+                                    <div class="col s12">
+                                        <ul class="tabs green-wine-trans">
+                                            <li class="tab col s6">
+                                                <a href="#day1" class="white-text roboto-900 active">
+                                                    Nov 21
+                                                </a>
+                                            </li>
+                                            <li class="tab col s6">
+                                                <a href="#day2" class="white-text roboto-900">
+                                                    Nov 22
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div id="day1">
+                                    <table class="bordered highlight centered responsive-table">
+                                        <thead>
+                                            <tr class="green-spot-text">
+                                                <th data-field="Time">Time</th>
+                                                <th data-field="Time">Event</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>7:00</td>
+                                                <td>Registration</td>
+                                            </tr>
+                                            <tr>
+                                                <td>8:00</td>
+                                                <td>Opening Remarks</td>
+                                            </tr>
+                                            <tr>
+                                                <td>8:15</td>
+                                                <td>Start of Talks</td>
+                                            </tr>
+                                            <tr>
+                                                <td>9:45</td>
+                                                <td>End of Talks</td>
+                                            </tr>
+                                            <tr>
+                                                <td>10:00</td>
+                                                <td>Hackathon Starts</td>
+                                            </tr>
+                                            <tr>
+                                                <td>10:05</td>
+                                                <td>Consultation w/ Mentors</td>
+                                            </tr>
+                                            <tr>
+                                                <td>12:00</td>
+                                                <td>Lunch</td>
+                                            </tr>
+                                            <tr>
+                                                <td>13:00</td>
+                                                <td>Hacking Continues</td>
+                                            </tr>
+                                            <tr>
+                                                <td>15:00</td>
+                                                <td>Afternoon Snacks</td>
+                                            </tr>
+                                            <tr>
+                                                <td>15:45</td>
+                                                <td>Hackathon Continues</td>
+                                            </tr>
+                                            <tr>
+                                                <td>18:00</td>
+                                                <td>Dinner</td>
+                                            </tr>
+                                            <tr>
+                                                <td>22:00</td>
+                                                <td>Lockdown Period</td>
+                                            </tr>
+                                            <tr>
+                                                <td>22:10</td>
+                                                <td>Shower Time</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div id="day2">
+                                    <table class="bordered highlight centered responsive-table">
+                                        <thead>
+                                            <tr class="green-spot-text">
+                                                <th data-field="Time">Time</th>
+                                                <th data-field="Time">Event</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>6:00</td>
+                                                <td>Breakfast</td>
+                                            </tr>
+                                            <tr>
+                                                <td>7:00</td>
+                                                <td>Hacking Continues</td>
+                                            </tr>
+                                            <tr>
+                                                <td>11:00</td>
+                                                <td>Hacking Ends</td>
+                                            </tr>
+                                            <tr>
+                                                <td>11:45</td>
+                                                <td>Sponsor Talk</td>
+                                            </tr>
+                                            <tr>
+                                                <td>12:00</td>
+                                                <td>Start of Demo</td>
+                                            </tr>
+                                            <tr>
+                                                <td>16:00</td>
+                                                <td>Closed Door Deliberation</td>
+                                            </tr>
+                                            <tr>
+                                                <td>17:00</td>
+                                                <td>Announcement of Winners</td>
+                                            </tr>
+                                            <tr>
+                                                <td>17:10</td>
+                                                <td>8Layer Closing Remarks</td>
+                                            </tr>
+                                            <tr>
+                                                <td>17:20</td>
+                                                <td>DLSU Closing Remarks</td>
+                                            </tr>
+                                            <tr>
+                                                <td>15:45</td>
+                                                <td>Hackathon Continues</td>
+                                            </tr>                                            
+                                        </tbody>
+                                    </table>
+                                </div>
                             </div>
+                            <!-- End of Schedule -->
                         </div>
                     </div>                    
                     <!-- Second row -->
@@ -154,6 +257,11 @@
         <script src="js/countdowntimer.js"></script>
         <script>
              window.sr = new scrollReveal();
+        </script>
+        <script>
+            $(document).ready(function(){
+                $('ul.tabs').tabs('select_tab', 'tab_id');
+              });
         </script>
     </body>
 </html>

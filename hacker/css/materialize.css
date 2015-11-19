@@ -2067,7 +2067,7 @@ img.responsive-img, video.responsive-video {
   .pagination li.active a {
     color: #fff; }
   .pagination li.active {
-    background-color: #ee6e73; }
+    background-color: #6ADD6C; }
   .pagination li.disabled a {
     cursor: default;
     color: #999; }
@@ -5696,7 +5696,7 @@ small {
     position: absolute;
     bottom: 0;
     height: 2px;
-    background-color: #f6b2b5;
+    background-color: #6ADD6C;
     will-change: left, right; }
 
 .tabs .tab {
