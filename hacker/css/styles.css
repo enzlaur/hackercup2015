@@ -80,8 +80,8 @@ p {
 }
 
 .roboto-900{
-    
-    font-weight: 900;
+    font-family: 'Roboto' !important;
+    font-weight: 900 !important;
 }
 
 .font-s18 {

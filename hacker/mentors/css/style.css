@@ -13,7 +13,7 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #0f1926;
   background-color: #ebebeb;
 }
@@ -811,4 +811,112 @@ Keyframes
     transform: translateY(0);
     opacity: 1;
   }
+}
+
+/* ------------------------
+
+    LAURENZ INPUT
+
+------------------------- */
+.roboto-200{
+    
+    font-weight: 200;
+}
+
+.roboto-300{
+    
+    font-weight: 300;
+}
+
+.roboto-400{
+    
+    font-weight: 400;
+}
+
+.roboto-500{
+    
+    font-weight: 500;
+}
+
+.roboto-700{
+    
+    font-weight: 700;
+}
+
+.roboto-900{
+    font-family: 'Roboto' !important;
+    font-weight: 900 !important;
+}
+
+.border-side-black {
+    border: 2px dashed;
+    border-radius: 7px;
+    border-color: #2f815c;
+}
+
+.green-wine-trans {
+    background: rgba(9, 15, 14, 0.84) !important;
+    color: white;
+}
+.green-wine {
+    color: white;
+    background: rgb(9,15,14) !important;
+}
+
+    .green-wine li {
+        color: white;
+    }
+.green-mint {
+    background: /*rgb(41,118,81)*/;	
+    background: #2f815c;
+}
+.green-spot{
+    background: #6ADD6C;
+}
+.green-wine-text {
+    color: rgb(9,15,14);
+}
+.green-mint-text {
+    color: rgb(41,118,81);	
+}
+.green-spot-text {
+    color: #6ADD6C;
+}
+.green-spot-text {
+    color: #6ADD6C !important;
+}
+.green-freight {
+    background: #45F489;
+}
+.green-epic {
+    background: #00D377;
+}
+
+.pushdown-10p {
+    padding-top: 10%;
+}
+.pushdown-15p {
+    padding-top: 15%;
+}
+
+.pushdown-5p {
+    padding-top: 5%;
+}
+.pushdown-2p {
+    padding-top: 2%;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-left {
+    text-align: left !important;
+}
+
+.no-margin {
+    margin: 0 !important;
+}
+
+.no-padding {
+    padding: 0 !important;
 }
