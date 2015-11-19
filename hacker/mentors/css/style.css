@@ -243,8 +243,8 @@ Projects Slider
   padding: .4em 0;
   /* truncate text with ellipsis if too long */
   overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  /*text-overflow: ellipsis;*/
+  /*white-space: nowrap;*/
 }
 .cd-slider h2, .cd-slider p {
   line-height: 1.2;
