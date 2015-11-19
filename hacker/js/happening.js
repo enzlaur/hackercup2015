@@ -15,7 +15,9 @@ var texts = ["WOW napansin mo to", "WOW. Hindi nga", "Binabasa mo ba to?", "EDI 
 $(".textContent").each(function() {
   texts[cnt++]=$(this).text();
 });
-function slide() {
+
+function slide()
+{
   if (cnt>=texts.length) cnt=0;
   $('#textMessage').html(texts[cnt++]);
   $('#textMessage')
