@@ -104,8 +104,13 @@ CDown.prototype = {
             next.innerHTML = "DLSU HackerCup 2015!!";
         } 
         else if ( d == 1 ) {
+            
+            if( h > 5) {
+                now.innerHTML  = "Nothing yet. Go back to sleep!";
+                next.innerHTML = "DLSU HackerCup 2015!!";
+            }
             /* 7:00 - 8:00 */
-            if (h == 5 && m == 0 || h == 4 && m >= 0) {
+            else if (h == 5 && m == 0 || h == 4 && m >= 0) {
                 now.innerHTML  = "Registration";
                 next.innerHTML = "Talk: OWASP";
             } else if ( h == 4 && m == 0 || h == 3 ) {
