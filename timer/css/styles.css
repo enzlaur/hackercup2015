@@ -604,3 +604,8 @@ core-menu > paper-item.core-selected {
     border-top: 2px dashed;    
     border-color: #2f815c;
 }
+
+.supersize-text {
+    font-size: 1.7em;
+    line-height: 1em;
+}
