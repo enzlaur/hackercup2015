@@ -238,7 +238,7 @@ CDown.prototype = {
             else if ( h == 20 )
             {
                 /* 15:00 - 15:45*/
-                if ( m => 16) {
+                if ( m >= 16) {
                     now.innerHTML  = "Afternoon Snacks";
                     next.innerHTML = "Hackathon Continues";
                 }
