@@ -11,8 +11,9 @@ var texts = ["WOW napansin mo to", "WOW. Hindi nga", "Binabasa mo ba to?", "EDI 
                   "Lalabas promo code ng 10PM", "pero hindi ko alam para saan", "o baka wala talaga",
                   "At inuuto lang kita sayangin oras mo", "Kaya't paalam na!!"," End of Message "];
 var cnt1=0;
-var announcements = ["Live announcements go here!!", "No Important Announcements Yet", "#DLSUHackerCup2015 is the official hashtag!", 
-                     "clean as you go! #CLAYGO", "Please refresh this page in order to update this feed."];
+var announcements = ["Please push to your GitHub!!", "Check FB for necessary GitHub Requirements", "#DLSUHackerCup2015", 
+                     "Throw your breakfast at the bin bags at the sides!", "Refresh Page for updates."];
+
 
 // save the texts in an array for re-use
 $(".textContent").each(function() {

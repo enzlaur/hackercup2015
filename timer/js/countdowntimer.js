@@ -11,8 +11,6 @@ var CDown = function() {
 	this.interval=null;// setInterval object
 }
 
-var mess1 = "Shayane cutie";
-var mess2 = "Rissa woooot";
 
 CDown.prototype = {
 	init: function(){
