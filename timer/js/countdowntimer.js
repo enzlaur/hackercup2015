@@ -259,6 +259,6 @@ CDown.prototype = {
 window.onload=function(){
 	var cdown = new CDown();
 
-	cdown.add(new Date(2015,10,22,12,00,00), "countbox1");
-    cdown.add(new Date(2015,10,22,12,00,00), "countbox2");
+	cdown.add(new Date(2015,10,22,12,30,00), "countbox1");
+    cdown.add(new Date(2015,10,22,12,30,00), "countbox2");
 };
